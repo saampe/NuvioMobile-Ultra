@@ -642,10 +642,6 @@ private fun MobileStreamsLayout(
                             modifier = Modifier.padding(horizontal = 12.dp, vertical = 4.dp),
                         )
                     }
-                    EpisodeSynopsisPanel(
-                        overview = episodeOverview,
-                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 4.dp),
-                    )
                     ProviderFilterRow(
                         groups = uiState.groups,
                         selectedFilter = uiState.selectedFilter,
